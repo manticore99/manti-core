@@ -25,7 +25,7 @@ SECRET_KEY = '7yfi5c@7!q__!sru5jd(716#i!5+w3@@plqxh&c+7z%eejcnmi'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['143.110.229.66', 'www.manticoreauto.com', 'manticore.com']
 
