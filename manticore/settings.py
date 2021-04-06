@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['143.110.229.66', 'www.manticoreauto.com', 'manticore.com']
 
-
 # Application definition
 
 INSTALLED_APPS = [
