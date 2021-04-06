@@ -1,0 +1,67 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: white;
+}
+
+#intro {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background: url("/static/img/construction.jpg") repeat center;
+  background-size: cover;
+}
+
+#intro .overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  left: 0;
+}
+
+#intro .logo {
+  position: relative;
+}
+
+#intro .logo img {
+  max-height: 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#intro .text {
+  position: relative;
+  color: white;
+  font-size: 3.5rem;
+  font-family: serif;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+@media screen and (max-width: 740px) {
+  #intro .text {
+    font-size: 2rem;
+  }
+}
+
+#intro .social {
+  position: relative;
+  top: 70%;
+}
+
+#intro .social ion-icon {
+  color: white;
+  font-size: 40px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 740px) {
+  #intro .social ion-icon {
+    margin: 5px;
+  }
+}
+/*# sourceMappingURL=master.css.map */
